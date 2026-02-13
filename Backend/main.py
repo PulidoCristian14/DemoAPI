@@ -16,3 +16,6 @@ app.add_middleware(
 def sumar_numeros(a:float, b:float):
     return a+b
 
+@app.get("/restar")
+def restar_numeros(a:float, b:float):
+    return a-b
